@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    /*Declaracion de Variable para colores*/
+    --color-primario: #F3F5FC;
+    --color-secundario: #0A3871;
+}
+
+
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.logo__imagen{
+ padding: 2%;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6%;
+}
+
+.parte__Izquierda{
+    flex-direction: column;
+    padding: 15%;
+}
