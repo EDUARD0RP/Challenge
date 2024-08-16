@@ -1,3 +1,6 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +10,7 @@
     /*Declaracion de Variable para colores*/
     --color-primario: #F3F5FC;
     --color-secundario: #0A3871;
+    --color-teciario: #DDDDDD;
 }
 
 
@@ -33,15 +37,22 @@ body{
 .parte__Izquierda{
     display: flex;
     flex-direction: column;
-    padding: 10%;
     gap: 500px;
 }
 
-.caja__texto {
+.area__texto{
+    background-color: var(--color-primario);
     width: 100%;
     padding: 10px;
     border: 1px solid var(--color-primario);
-    font-size: 2rem;
+    font-size: 32px;
+    color: var(--color-secundario);
+   
+}
+
+.area__texto::placeholder {
+    font-family: "Inter", sans-serif;
+    color: var(--color-secundario);
 }
 
 .informacion__botones{
@@ -51,8 +62,32 @@ body{
 
 }
 
+.informacion{
+    color: #495057;
+}
+
 .botones{
     display: flex;
-    gap: 1.5rem;
-    font-size: 1rem;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.boton__Encriptar{
+    width: 328px;
+    background-color: var(--color-secundario);
+    padding: 24px;
+    color:#FFFFFF;
+    border-radius: 24px;
+    border: 1px solid var(--color-secundario);
+    font-size: 16px;
+}
+
+.boton__Desencriptar{
+    width: 328px;
+    background-color: var(--color-teciario);
+    padding: 24px;
+    color:#0A3871;
+    border-radius: 24px;
+    border: 1px solid var(--color-secundario);
+    font-size: 16px;
 }
