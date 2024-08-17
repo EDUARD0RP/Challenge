@@ -9,8 +9,9 @@
 :root{
     /*Declaracion de Variable para colores*/
     --color-primario: #F3F5FC;
-    --color-secundario: #0A3871;
-    --color-teciario: #DDDDDD;
+    --color-secundario: #0a3871;
+    --color-teciario: #dddddd;
+    --color-cuaternario: #343A40;
 }
 
 
@@ -60,6 +61,7 @@ body{
 
 .informacion{
     color: #495057;
+    font-size: 15px;
 }
 
 .botones{
@@ -92,13 +94,34 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 243px 30px 357px 30px;
+    padding: 240px 30px 257px 30px;
     margin: 38px 40px 44px 80px;
     border-radius: 32px;
+    box-shadow: 4px 4px 8px rgba(10, 56, 113, 0.2);
 }
 
 .imagen__joven{
     display: flex;
     width: 336px;
     height: 304;
+}
+
+.informe{
+    display: flex;
+    padding-top: 32px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: var(--color-cuaternario);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.instrucción{
+    display: flex;
+    padding-top: 16px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: var(--color-cuaterniario);
+    font-size: 16px;
+    font-weight:500;
 }
