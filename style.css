@@ -44,6 +44,7 @@ body{
     border: 1px solid var(--color-primario);
     font-size: 32px;
     color: var(--color-secundario);
+    resize: none; 
 }
 
 .area__texto::placeholder {
