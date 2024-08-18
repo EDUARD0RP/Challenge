@@ -23,7 +23,7 @@ body{
 }
 
 .logo__imagen{
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .presentacion{
@@ -35,24 +35,29 @@ body{
 .presentacion__interactiva{
     display: flex;
     flex-direction: column;
-    padding: 170px 0px 0px 35px;
+    padding: 10.625rem 0rem 0rem 2.25rem;
     gap: 385px;
 }
 
 .area__texto{
-    width: 678px;
-    height: 288px;
+    width: 47.083vw;
+    height: 28.125vh;
     background-color: var(--color-primario);
     border: 1px solid var(--color-primario);
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--color-secundario);
     resize: none; 
+    outline: none;
 }
 
 .area__texto::placeholder {
     font-family: "Inter", sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--color-secundario);
+}
+
+.area__texto:focus {
+    box-shadow: 0 0 5px var(--color-secundario); 
 }
 
 .informacion__botones{
@@ -64,7 +69,7 @@ body{
 
 .informacion{
     color: #495057;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .botones{
@@ -74,57 +79,57 @@ body{
 }
 
 .boton__Encriptar{
-    width: 328px;
+    width: 22.77vw;
     background-color: var(--color-secundario);
-    padding: 24px;
+    padding: 1.5rem;
     color:#FFFFFF;
     border-radius: 24px;
     border: 1px solid var(--color-secundario);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .boton__Desencriptar{
-    width: 328px;
+    width: 22.77vw;
     background-color: var(--color-teciario);
-    padding: 24px;
+    padding: 1.5rem;
     color:#0A3871;
     border-radius: 24px;
     border: 1px solid var(--color-secundario);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .presentacion__encriptada{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 240px 30px 257px 30px;
-    margin: 38px 40px 40px 85px;
+    padding: 15rem 1.875rem 16.0625rem 1.875rem;
+    margin: 2.375rem 2.5rem 2.5rem 5.3125rem;
     border-radius: 32px;
     box-shadow: 4px 4px 8px rgba(10, 56, 113, 0.2);
 }
 
 .imagen__joven{
     display: flex;
-    width: 336px;
-    height: 304;
+    width: 23.33vw;
+    height: 29.6875vh;
 }
 
 .informe{
     display: flex;
-    padding-top: 32px;
+    padding-top: 2rem;
     text-align: center;
     font-family: "Inter", sans-serif;
     color: var(--color-cuaternario);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .instrucción{
     display: flex;
-    padding-top: 16px;
+    padding-top: 1rem;
     text-align: center;
     font-family: "Inter", sans-serif;
     color: var(--color-cuaterniario);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight:500;
 }
