@@ -23,7 +23,7 @@ body{
 }
 
 .logo__imagen{
-    padding: 2.5rem;
+    margin: 2.5rem 0rem 0rem 2.5rem;
 }
 
 .presentacion{
@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10.625rem 0rem 0rem 2.25rem;
-    gap: 385px;
+    gap: 325px;
 }
 
 .area__texto{
@@ -79,7 +79,7 @@ body{
 }
 
 .boton__Encriptar{
-    width: 22.77vw;
+    width: 21.77vw;
     background-color: var(--color-secundario);
     padding: 1.5rem;
     color:#FFFFFF;
@@ -89,7 +89,7 @@ body{
 }
 
 .boton__Desencriptar{
-    width: 22.77vw;
+    width: 21.77vw;
     background-color: var(--color-teciario);
     padding: 1.5rem;
     color:#0A3871;
@@ -102,16 +102,14 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 15rem 1.875rem 16.0625rem 1.875rem;
-    margin: 2.375rem 2.5rem 2.5rem 5.3125rem;
+    padding: 13rem 1rem 13rem 1rem;
+    margin: 2rem 5rem 0rem 1.5rem;
     border-radius: 32px;
     box-shadow: 4px 4px 8px rgba(10, 56, 113, 0.2);
 }
 
 .imagen__joven{
     display: flex;
-    width: 23.33vw;
-    height: 29.6875vh;
 }
 
 .informe{
