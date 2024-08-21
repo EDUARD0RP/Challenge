@@ -88,6 +88,10 @@ body{
     font-size: 1rem;
 }
 
+.boton__Encriptar:hover{
+    box-shadow: 6px 6px 6px rgba(10, 56, 113, 0.2);
+}
+
 .boton__Desencriptar{
     width: 21.77vw;
     background-color: var(--color-teciario);
@@ -98,7 +102,13 @@ body{
     font-size: 1rem;
 }
 
+.boton__Desencriptar:hover{
+    box-shadow: 6px 6px 6px rgba(10, 56, 113, 0.2);
+}
+
 .presentacion__encriptada{
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
