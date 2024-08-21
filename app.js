@@ -40,5 +40,12 @@ function Desencriptar() {
     .replace(/ober/g, "o")
     .replace(/ufat/g, "u");
 
-    console.log(textoEncriptado);
+    const imagen = document.getElementById("imagen-joven");
+    imagen.style.display = "none";
+
+    const instruccion = document.getElementById("instruccion");
+    instruccion.style.display = "none";
+
+    const mensajeEncriptado = document.getElementById("mensaje-encriptado");
+    mensajeEncriptado.textContent = textoEncriptado;
 };

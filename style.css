@@ -107,8 +107,8 @@ body{
 }
 
 .presentacion__encriptada{
-    width: auto;
-    height: auto;
+    width: 20.9455vw;
+    height: 49.915vh;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -140,4 +140,12 @@ body{
     color: var(--color-cuaterniario);
     font-size: 1rem;
     font-weight:500;
+}
+
+#mensaje-encriptado {
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    word-break: break-all; 
+    overflow-wrap: break-word; 
+    max-width: 100%; 
 }
