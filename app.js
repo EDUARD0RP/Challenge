@@ -30,6 +30,10 @@ function encriptar() {
 
     const copyButton = document.getElementById("boton__copiado");
     copyButton.style.display = "inline-block";
+
+    if (mensajeEncriptado.textContent) {
+        mensajeEncriptado.style.marginTop = "-9.375rem"; 
+    }
 }
 
 function desencriptar() {

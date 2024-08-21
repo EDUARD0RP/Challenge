@@ -143,8 +143,7 @@ body{
 }
 
 #mensaje-encriptado{
-    word-break: break-all; 
-    margin-top: -9.375rem; 
+    word-break: break-all;  
     max-width: 100%; 
     font-family: "Inter", sans-serif;
     font-size: 2rem;
