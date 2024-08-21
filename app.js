@@ -17,11 +17,19 @@ function Encriptar() {
     const imagen = document.getElementById("imagen-joven");
     imagen.style.display = "none";
 
-    const instruccion = document.getElementById("instruccion");
+    const instruccion = document.getElementById("instruccion__id");
     instruccion.style.display = "none";
+
+    const informe = document.getElementById("informe__id");
+    informe.style.display = "none";
 
     const mensajeEncriptado = document.getElementById("mensaje-encriptado");
     mensajeEncriptado.textContent = textoEncriptado;
+
+    textarea.value = "";
+
+    const copyButton = document.getElementById("copy-button");
+    copyButton.style.display = "inline-block";
 };
 
 function Desencriptar() {
@@ -43,9 +51,21 @@ function Desencriptar() {
     const imagen = document.getElementById("imagen-joven");
     imagen.style.display = "none";
 
-    const instruccion = document.getElementById("instruccion");
+    const instruccion = document.getElementById("instruccion__id");
     instruccion.style.display = "none";
+
+    const informe = document.getElementById("informe__id");
+    informe.style.display = "none";
 
     const mensajeEncriptado = document.getElementById("mensaje-encriptado");
     mensajeEncriptado.textContent = textoEncriptado;
+
+    textarea.value = "";
+
+    const copyButton = document.getElementById("copy-button");
+    copyButton.style.display = "inline-block";
 };
+
+function copy() {
+   
+}

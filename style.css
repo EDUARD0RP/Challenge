@@ -132,7 +132,7 @@ body{
     font-weight: bold;
 }
 
-.instrucción{
+.instruccion{
     display: flex;
     padding-top: 1rem;
     text-align: center;
@@ -142,10 +142,15 @@ body{
     font-weight:500;
 }
 
-#mensaje-encriptado {
-    white-space: pre-wrap; 
-    word-wrap: break-word; 
-    word-break: break-all; 
-    overflow-wrap: break-word; 
+#mensaje-encriptado{
+    word-break: break-all;  
     max-width: 100%; 
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    color: var(--color-secundario);
+    text-align: center;
+}
+
+#copy-button {
+    display: none;
 }
