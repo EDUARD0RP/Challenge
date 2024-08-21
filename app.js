@@ -1,4 +1,4 @@
-function Encriptar() {
+function encriptar() {
     const textarea = document.getElementById("entrada__texto");
     const texto = textarea.value;
 
@@ -28,11 +28,11 @@ function Encriptar() {
 
     textarea.value = "";
 
-    const copyButton = document.getElementById("copy-button");
+    const copyButton = document.getElementById("boton__copiado");
     copyButton.style.display = "inline-block";
-};
+}
 
-function Desencriptar() {
+function desencriptar() {
     const textarea = document.getElementById("entrada__texto");
     const texto = textarea.value;
 
@@ -62,10 +62,29 @@ function Desencriptar() {
 
     textarea.value = "";
 
-    const copyButton = document.getElementById("copy-button");
+    const copyButton = document.getElementById("boton__copiado");
     copyButton.style.display = "inline-block";
-};
+}
 
-function copy() {
-   
+function copia() {
+    const mensajeEncriptado = document.getElementById("mensaje-encriptado");
+
+    if (mensajeEncriptado.textContent) {
+       
+        const range = document.createRange();
+        range.selectNodeContents(mensajeEncriptado);
+
+        
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        try {
+            
+            document.execCommand("copy");
+        } catch (err) {
+            console.error("Error al copiar:", err);
+        }
+    } 
+
 }

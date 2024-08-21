@@ -9,7 +9,8 @@
 <body>
     <header></header>
     <main class="presentacion"> 
-        <img class="logo__imagen" src="./assets/Logo.png" alt="Logo de Alura">
+    <img class="logo__imagen" src="./assets/Logo.png" alt="Logo de Alura">
+
         <section class="presentacion__interactiva">
                 <textarea id="entrada__texto" class="area__texto" placeholder="Ingrese el texto aqui"></textarea>
             <div class="informacion__botones" >
@@ -17,8 +18,8 @@
                 <img src="./assets/Group.png" alt="Respetar informacion"> Solo letras minúsculas y sin acentos
             </p>
                 <div class="botones">
-                    <button onclick="Encriptar()" id="btn__Encriptar" class="boton__Encriptar">Encriptar</button>
-                    <button onclick="Desencriptar()" id="btn__Desencriptar" class="boton__Desencriptar">Desencriptar</button>
+                    <button onclick="encriptar()" id="btn__Encriptar" class="boton__Encriptar">Encriptar</button>
+                    <button onclick="desencriptar()" id="btn__Desencriptar" class="boton__Desencriptar">Desencriptar</button>
                 </div>
             </div>
         </section>
@@ -28,9 +29,8 @@
             <img id="imagen-joven" class="imagen__joven" src="./assets/Joven.png" alt="Joven observando diamante">
             <p id="informe__id" class="informe">Ningún mensaje fue encontrado</p>
             <p id="instruccion__id" class="instruccion">Ingresa el texto que desees encriptar o desencriptar.</p>
-            <button id="copy-button" style="display: none;">Copiar</button>    
+            <button onclick="copia()" id="boton__copiado" class="boton__copia">Copiar</button>    
         </div>
-
     </main>
     <script src="app.js"></script>
 </body>
