@@ -112,7 +112,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 9rem 1rem 9rem 1rem;
+    padding: 8rem 1rem 9rem 1rem;
     margin: 2rem 5rem 0rem 1.5rem;
     border-radius: 32px;
     box-shadow: 4px 4px 8px rgba(10, 56, 113, 0.2);
@@ -120,6 +120,8 @@ body{
 
 .imagen__joven{
     display: flex;
+    width: auto;
+    height: auto;
 }
 
 .informe{
