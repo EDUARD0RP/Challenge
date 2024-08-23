@@ -16,8 +16,10 @@ function extras__diseño(textoEncriptado, textarea, texto) {
     const copyButton = document.getElementById("boton__copiado");
     copyButton.style.display = "inline-block";
 
-    if (mensajeEncriptado.textContent) {
-        mensajeEncriptado.style.marginTop = "-9.375rem"; 
+    if (window.innerWidth >= 821) {
+        if (mensajeEncriptado.textContent) {
+            mensajeEncriptado.style.marginTop = "-9.375rem"; 
+        }
     }
 }
 

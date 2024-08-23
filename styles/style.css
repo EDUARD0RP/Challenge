@@ -169,6 +169,140 @@ body{
 
 .logo__imagen{
         margin: 4.58rem 0rem 0rem 0rem;
-    }
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.area__texto{
+    width: 84.93vw;
+    height: 28.125vh;
+}
+
+.presentacion__interactiva{
+    padding: 7.625rem 0rem 0rem 2.25rem;
+    gap: 21vh;
+}
+
+.botones{
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+}
+
+.boton__Encriptar{
+    width: 41.77vw;
+}
+
+.boton__Desencriptar{
+    width: 41.77vw;
+    background-color: var(--color-primario);
+}
+
+.presentacion__encriptada{
+    width: 75.5455vw;
+    height: auto;
+    min-height: 100px;
+    padding: 0vh 9.166vw 2.7vh 7.166vw;
+    margin: 4.5rem 2rem 0rem 2rem;
+    align-items: center;
+}
+
+.imagen__joven{
+    display: none;
+}
+
+#mensaje-encriptado{
+    padding-top: 10px;
+    word-break: break-all;  
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    color: #495057;
+}
+
+.boton__copia{
+    background-color: #FFFFFF;
+    margin-top: auto;
+    width: 76.77vw;
+    display: none;
+    padding: 1.2rem;
+    position: relative;
+}
 
 }
+
+@media(max-width:400px){
+
+    .logo__imagen{
+            margin: 1.70rem 0rem 0rem 0rem;
+
+    }
+    
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+    
+    .area__texto{
+        width: 84.93vw;
+        height: 28.125vh;
+    }
+    
+    .presentacion__interactiva{
+        padding: 4.625rem 0rem 0rem 1.25rem;
+        gap: 4vh;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .boton__Encriptar{
+        width: 89.77vw;
+    }
+    
+    .boton__Desencriptar{
+        width: 89.77vw;
+        background-color: var(--color-primario);
+    }
+    
+    .presentacion__encriptada{
+        width: 75.5455vw;
+        height: auto;
+        min-height: 100px;
+        padding: 0vh 4.166vw 2.7vh 4.166vw;
+        margin: 4.5rem 2.5rem 0rem 2rem;
+        align-items: center;
+    }
+    
+    .imagen__joven{
+        display: none;
+    }
+    
+    #mensaje-encriptado{
+        padding-top: 10px;
+        word-break: break-all;  
+        font-family: "Inter", sans-serif;
+        font-size: 1.5rem;
+        color: #495057;
+    }
+    
+    .boton__copia{
+        background-color: #FFFFFF;
+        margin-top: auto;
+        width: 76.77vw;
+        display: none;
+        padding: 1.2rem;
+        position: relative;
+    }
+    
+    }
