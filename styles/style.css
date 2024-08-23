@@ -164,3 +164,11 @@ body{
     color:#0A3871;
     display: none;
 }
+
+@media(max-width:820px){
+
+.logo__imagen{
+        margin: 4.58rem 0rem 0rem 0rem;
+    }
+
+}
