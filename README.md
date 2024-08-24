@@ -16,3 +16,6 @@ Este proyecto es una aplicación web de encriptación de texto, desarrollada com
 - **HTML5**: Estructura básica de la aplicación.
 - **CSS3**: Estilización y diseño responsivo.
 - **JavaScript**: Lógica para la encriptación/desencriptación y manipulación del DOM.
+
+## Estado del Challenge
+- En este momento se encuentra en la fase final, sin embargo esta a la espera de la revision por parte de los profesores del curso, para hacer las correciones o actualizaciones correspondientes y quede mejor, gracias a las observaciones que se realizen.
