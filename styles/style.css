@@ -185,7 +185,7 @@ body{
 
 .presentacion__interactiva{
     padding: 7.625rem 0rem 0rem 2.25rem;
-    gap: 21vh;
+    gap: 14vh;
 }
 
 .botones{
@@ -208,7 +208,7 @@ body{
     height: auto;
     min-height: 100px;
     padding: 0vh 9.166vw 2.7vh 7.166vw;
-    margin: 4.5rem 2rem 0rem 2rem;
+    margin: 2.5rem 2rem 0rem 2rem;
     align-items: center;
 }
 
@@ -280,7 +280,7 @@ body{
         height: auto;
         min-height: 100px;
         padding: 0vh 4.166vw 2.7vh 4.166vw;
-        margin: 4.5rem 2.5rem 0rem 2rem;
+        margin: 2.5rem 2.5rem 0rem 2rem;
         align-items: center;
     }
     
